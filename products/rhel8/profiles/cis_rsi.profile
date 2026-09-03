@@ -52,7 +52,9 @@ selections:
     - file_owner_cron_monthly
 
     # --- Logs y Auditoría ---
-    - rsyslog_sending_messages
+    - rsyslog_remote_loghost
+    - rsyslog_remote_tls
+    - rsyslog_remote_tls_cacert
 
     # --- Gestión de Cuentas y Usuarios ---
     - accounts_maximum_age_login_defs
